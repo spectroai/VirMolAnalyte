@@ -1,0 +1,20 @@
+# VirMolAnalyte 现代化GUI依赖包
+# 核心依赖
+PyQt6>=6.4.0
+numpy>=1.21.0
+pandas>=1.3.0
+torch>=1.9.0
+
+# 科学计算和可视化
+matplotlib>=3.5.0
+rdkit-pypi>=2022.9.1
+Pillow>=8.3.0
+
+# 数据处理
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# 可选依赖（用于增强功能）
+# openpyxl>=3.0.0  # Excel文件支持
+# plotly>=5.0.0    # 交互式图表
+# seaborn>=0.11.0  # 统计图表
