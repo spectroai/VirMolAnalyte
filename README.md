@@ -4,15 +4,37 @@
   <img src="Figures/logo.png" alt="VirMolAnalyte logo" width="520">
 </p>
 
-**VirMolAnalyte V2.0** is a desktop workflow for 1D NMR-guided natural product
-annotation. It combines Bruker 13C/DEPT preprocessing, in silico natural
-product database screening, masking AAS fragment attribution, and optional
-AI-assisted interpretation in a PyQt5 graphical interface.
+**VirMolAnalyte** is a research software project for AI-assisted *in silico*
+metabolite annotation from one-dimensional NMR data. The project focuses on
+natural product discovery workflows where experimental 13C/DEPT peak lists are
+matched against virtual molecular databases to generate candidate structures
+and interpretable spectral evidence.
 
-Developed by the research team at the **Kunming Institute of Botany, Chinese
-Academy of Sciences**. Released under the **MIT License**.
+**VirMolAnalyte V1.0** introduced the original browser-based database screening
+workflow. It supports carbon-number / carbon-type / molecular-weight filtering
+and multiple scoring strategies for ranking candidate metabolites from
+experimental 13C/DEPT peak lists. V1.0 was described in *Analytical Chemistry*
+in 2025 as **"VirMolAnalyte: An AI-Driven In Silico Metabolite Annotation
+Tool."**
+
+**VirMolAnalyte V2.0** extends the project into a desktop PyQt5 workbench. It
+keeps the database-screening core and adds Bruker 13C/DEPT preprocessing,
+masking AAS fragment attribution, fragment-level evidence visualization, result
+export, and optional AI-assisted interpretation.
+
+VirMolAnalyte V2.0 is developed by the research team at the **Kunming Institute
+of Botany, Chinese Academy of Sciences** and released under the **MIT License**.
 
 ![VirMolAnalyte V2.0 overview](Figures/virmolanalyte_v2_overview.png)
+
+## Navigation
+
+- **Static user guide**: [https://www.virmolanalyte.top/](https://www.virmolanalyte.top/)
+- **Dynamic Web Tool**: [https://www.virmolanalyte.top/web_tool/](https://www.virmolanalyte.top/web_tool/)
+- **Local documentation build**: [website/site/index.html](website/site/index.html)
+- **Local Dynamic Web Tool app**: [website/site/web_tool/index.html](website/site/web_tool/index.html)
+
+The local links work after building the documentation under `website/`.
 
 ## Highlights
 
@@ -132,6 +154,12 @@ After building, open:
 website/site/index.html
 ```
 
+The browser-based dynamic tool entry point is:
+
+```text
+website/site/web_tool/index.html
+```
+
 The documentation includes module pages, Quick Start videos, dynamic web tool
 instructions, and GUI screenshots.
 
@@ -146,4 +174,3 @@ VirMolAnalyte V1.0 was introduced in:
 ## License
 
 VirMolAnalyte V2.0 is released under the **MIT License**.
-
