@@ -93,11 +93,10 @@ def _app_logo_path():
     install_dir = _app_install_dir()
     toolkit_dir = _toolkit_dir()
     candidates = [
-        os.path.join(install_dir, "website", "docs", "images", "Logo", "Logo.png"),
-        os.path.join(toolkit_dir, "Logo.png"),
-        os.path.join(toolkit_dir, "GUI_result_files", "Logo.png"),
-        os.path.join(install_dir, "Logo.png"),
-        os.path.join(os.getcwd(), "Logo.png"),
+        os.path.join(install_dir, "Logo1.png"),
+        os.path.join(toolkit_dir, "Logo1.png"),
+        os.path.join(toolkit_dir, "GUI_result_files", "Logo1.png"),
+        os.path.join(os.getcwd(), "Logo1.png"),
     ]
     for path in candidates:
         if os.path.isfile(path):
