@@ -138,31 +138,6 @@ VirMolAnalyte/
   website/                   # MkDocs documentation website
   Figures/                   # README figures
 ```
-
-## Documentation
-
-The user guide is maintained under `website/` and can be built with:
-
-```bash
-cd website
-python docs.py build
-```
-
-After building, open:
-
-```text
-website/site/index.html
-```
-
-The browser-based dynamic tool entry point is:
-
-```text
-website/site/web_tool/index.html
-```
-
-The documentation includes module pages, Quick Start videos, dynamic web tool
-instructions, and GUI screenshots.
-
 ## Citation
 
 VirMolAnalyte V1.0 was introduced in:
